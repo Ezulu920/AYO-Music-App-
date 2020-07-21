@@ -1,0 +1,132 @@
+
+body {
+  font-family: 'Abel', sans-serif;
+  height: 100vh;
+  background-color: #16042c;
+  color: rgb(250, 160, 200);
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.logo {
+  flex: 3;
+}
+
+.logo h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav {
+  flex: 3;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  
+}
+
+.nav-link {
+  color: rgb(250, 160, 200);
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h4 {
+  font-size: 60px;
+}
+
+.info h2 {
+  font-size: 60px;
+}
+.features h2{
+    font-size: 2rem;
+    margin: 25px 50px 75px 100px;
+}
+.info p {
+  font-size: 30px;
+  width: 70%;
+  border-spacing: 20px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgb(61, 61, 61);
+}
+
+.phone {
+  flex: 1;
+}
+
+.phone img {
+  height: 32rem;
+  transform: rotate(20deg);
+  margin-left: 50px;
+}
+
+.download-btn {
+    padding-top: 4rem;
+    height: 3rem;
+
+}
+
+.app-btn {
+    border-radius: 100px;
+    background-color:#452894;
+	border:1px solid #1889ab;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(250, 160, 200);
+	font-size:1rem;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  
+  .info h4 {
+    font-size: 30px;
+  }
+
+  .info h1 {
+    font-size: 70px;
+  }
+
+  .info p {
+    font-size: 25px;
+  }
+
+  .phone {
+    padding-top: 5rem;
+    align-items: left;
+    transform: rotate(-20deg);
+
+
+  }
+  .features{
+      text-align: left;
+  }
+}
